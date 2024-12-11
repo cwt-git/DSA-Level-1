@@ -1,5 +1,3 @@
-
-
 public class conditions {
     public static void main(String[] args) {
         int x = 12;
