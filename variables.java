@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Variables {
+public class variables {
     public static void main(String[] args) {
         // Format: data_type variable_name = value;
         int x = 15; // Declare an integer variable x and assign the value 15
