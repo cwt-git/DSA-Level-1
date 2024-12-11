@@ -5,6 +5,7 @@ public class loops {
         for (int i = 0; i < n; i++) {
             System.out.println("hello" + i);
         }
+        System.out.println("I am out of for loop");
         // While loop
         int i = 1;
         while (i <= 9) {
