@@ -1,28 +1,31 @@
-// What are variables and operators of Mathematics in java
-public class variables {
-    public static void main(String[] args) {
-        // Format - data_type variable_name = data;
-        int x = 15;
-        int y = 20;
-        int sum = x + y;
-        System.out.println(sum);
-        System.out.println("sum");
-        // Both above line print different answer
-        // Gernally we write as
-        System.out.println("Sum of x and y is " + sum);
+import java.util.Scanner;
 
-        // Lets do product
-        int prd = x * y;
-        System.out.println("Product of x and y is " + prd);
+public class Variables {
+    public static void main(String[] args) {
+        // Format: data_type variable_name = value;
+        int x = 15; // Declare an integer variable x and assign the value 15
+        int y = 20; // Declare an integer variable y and assign the value 20
+
+        // Addition
+        int sum = x + y; // Sum of x and y
+        System.out.println(sum); // Print the sum
+        System.out.println("sum"); // Print the string "sum"
+        // Generally, we write as:
+        System.out.println("Sum of x and y is " + sum); // Print the sum with a descriptive message
+
+        // Multiplication
+        int prd = x * y; // Product of x and y
+        System.out.println("Product of x and y is " + prd); // Print the product with a descriptive message
 
         // Division
-        int a = x / y; // This will give Quotient
-        int b = y / x; // This will give Quotient
+        int a = x / y; // Quotient of x divided by y
+        int b = y / x; // Quotient of y divided by x
 
-        int c = x % y; // This will give Remainder
-        int d = y % x; // This will give Remainder
+        // Modulo (Remainder)
+        int c = x % y; // Remainder of x divided by y
+        int d = y % x; // Remainder of y divided by x
 
-        // in Java -------- No BODMAS ----------------
-        System.out.println(a + " " + b + " " + c + " " + d);
+        // Note: In Java, no BODMAS rules apply directly to integer division and modulo operations
+        System.out.println(a + " " + b + " " + c + " " + d); // Print the results of division and modulo operations
     }
 }
